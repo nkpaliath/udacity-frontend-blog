@@ -3,73 +3,121 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CodeBlog</title>
-    <link href="./assets/styles.css" rel="stylesheet" />
+    <title>Blog</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link href="./assets/css/styles.css" rel="stylesheet" />
   </head>
   <body>
-    <header id="blog-header">
-      <h1>CodeBlog</h1>
-      <em>- Blog for coders and technical enthusiasts</em>
-      <nav id="blog-nav">
-        <a href="#">About</a>
-        <a href="#">Search</a>
-        <a href="#">Subscribe</a>
-      </nav>
-    </header>
-    <main id="blog-main">
-      <section id="blog-intro">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
-          recusandae atque natus, non harum reprehenderit optio molestiae ipsa
-          beatae provident, odit possimus vero accusamus quam doloremque, dolore
-          dicta sed ipsam?
-        </p>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis
-          nobis natus ipsam itaque ut ducimus tempore sunt ipsa dolorum libero?
-          Praesentium amet ratione id magnam error eum at molestias alias.
-        </p>
-      </section>
-      <section id="blog-posts">
-        <h2>Today's Posts</h2>
-        <div id="blog-summary-card">
-          <a href="blog-post.html">
-            <h3>Blog Post Title</h3>
-            <em>by author's name</em>
-            <div>icons</div>
-          </a>
+    <div class="container">
+      <header class="header">
+        <div class="navbar">
+          <h1>Blog</h1>
+          <nav class="nav">
+            <a href="#">About</a>
+            <a href="#">Search</a>
+            <button id="subscribe">Subscribe</button>
+          </nav>
         </div>
-        <div id="blog-summary-card">
-          <h3>Blog Post Title</h3>
-          <em>by author's name</em>
-          <div>icons</div>
-        </div>
-
-        <h2>Yesterday's Posts</h2>
-        <div id="blog-summary-card">
-          <h3>Blog Post Title</h3>
-          <em>by author's name</em>
-          <div>icons</div>
-        </div>
-
-        <div id="blog-summary-card">
-          <h3>Blog Post Title</h3>
-          <em>by author's name</em>
-          <div>icons</div>
-        </div>
-
-        <div id="blog-summary-card">
-          <h3>Blog Post Title</h3>
-          <em>by author's name</em>
-          <div>icons</div>
-        </div>
-      </section>
-      <aside class="blog-popular-posts">
-        <div class="popular-post-detail">
-          <span class="popular-post-title">Post title</span> by post author
-        </div>
-      </aside>
-    </main>
-    <footer class="blog-footer">Copyright</footer>
+      </header>
+      <main class="main">
+        <figure class="blog-image">
+          <div class="img"></div>
+          <figcaption>Blog for coders</figcaption>
+        </figure>
+        <section class="blog-intro">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+            recusandae atque natus, non harum reprehenderit optio molestiae ipsa
+            beatae provident, odit possimus vero accusamus quam doloremque,
+            dolore dicta sed ipsam.
+          </p>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis
+            nobis natus ipsam itaque ut ducimus tempore sunt ipsa dolorum
+            libero? Praesentium amet ratione id magnam error eum at molestias
+            alias.
+          </p>
+        </section>
+        <section class="blog-posts">
+          <div class="blog-summary-card">
+            <a href="blog-post.html">
+              <h3 class="blog-card-title">Blog Post Title</h3>
+              <span class="blog-card-author">by author's name</span>
+            </a>
+            <div class="blog-card-icons">
+              <span class="heart-filled"
+                ><span class="material-symbols-rounded">favorite</span></span
+              >
+              <span class="material-symbols-rounded">thumb_up</span>
+              <span class="material-symbols-rounded">thumb_down</span>
+            </div>
+          </div>
+          <div class="blog-summary-card">
+            <a href="blog-post.html">
+              <h3 class="blog-card-title">Blog Post Title</h3>
+              <span class="blog-card-author">by author's name</span>
+            </a>
+            <div class="blog-card-icons">
+              <span class="material-symbols-rounded">favorite</span>
+              <span class="material-symbols-rounded">thumb_up</span>
+              <span class="material-symbols-rounded">thumb_down</span>
+            </div>
+          </div>
+          <div class="blog-summary-card">
+            <a href="blog-post.html">
+              <h3 class="blog-card-title">Blog Post Title</h3>
+              <span class="blog-card-author">by author's name</span>
+            </a>
+            <div class="blog-card-icons">
+              <span class="material-symbols-rounded">favorite</span>
+              <span class="like-filled"
+                ><span class="material-symbols-rounded">thumb_up</span></span
+              >
+              <span class="material-symbols-rounded">thumb_down</span>
+            </div>
+          </div>
+          <div class="blog-summary-card">
+            <a href="blog-post.html">
+              <h3 class="blog-card-title">Blog Post Title</h3>
+              <span class="blog-card-author">by author's name</span>
+            </a>
+            <div class="blog-card-icons">
+              <span class="heart-filled"
+                ><span class="material-symbols-rounded">favorite</span></span
+              >
+              <span class="like-filled"
+                ><span class="material-symbols-rounded">thumb_up</span></span
+              >
+              <span class="material-symbols-rounded">thumb_down</span>
+            </div>
+          </div>
+          <div class="blog-summary-card">
+            <a href="blog-post.html">
+              <h3 class="blog-card-title">Blog Post Title</h3>
+              <span class="blog-card-author">by author's name</span>
+            </a>
+            <div class="blog-card-icons">
+              <span class="material-symbols-rounded">favorite</span>
+              <span class="material-symbols-rounded">thumb_up</span>
+              <span class="like-filled"
+                ><span class="material-symbols-rounded">thumb_down</span></span
+              >
+            </div>
+          </div>
+        </section>
+        <!-- <aside class="blog-popular-posts">
+          <div class="popular-post-detail">
+            <span class="popular-post-title">Post title</span> by post author
+          </div>
+        </aside> -->
+      </main>
+      <footer class="footer">
+        <span class="material-symbols-rounded">copyright</span>
+        <span> Copyright 2023</span>
+      </footer>
+    </div>
   </body>
 </html>
