@@ -110,7 +110,6 @@ figcaption {
 
 .blog-card-author {
   margin-left: 4px;
-  font-style: italic;
   font-size: 1.25rem;
 }
 
@@ -149,13 +148,10 @@ figcaption {
 
 .blog-post-icons {
   display: flex;
+  justify-content: space-between;
   padding-top: 10px;
   padding-bottom: 10px;
   margin-bottom: 10px;
-}
-
-.share-icons {
-  margin-left: auto;
 }
 
 .blog-post-author {
@@ -184,8 +180,7 @@ figcaption {
 }
 
 .author-name-designation .author-name {
-  font-weight: 700;
-  font-size: 1.25rem;
+  font-size: 1.35rem;
   color: #2f5da8;
 }
 
@@ -195,4 +190,22 @@ figcaption {
 
 .blog-posts {
   margin-bottom: 10px;
+}
+
+.fa-icon {
+  width: 1.25rem;
+  height: 1.25em;
+  font-size: 1.25rem;
+}
+
+.quote {
+  text-align: center;
+  background-color: #d7e2ff;
+  padding: 8px;
+  border-radius: 8px;
+  color: #001a40;
+  /* width: 50%; */
+  margin: auto;
+  margin-top: 10px;
+  font-size: 0.8rem;
 }
